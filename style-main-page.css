@@ -1,0 +1,48 @@
+body{
+    background-color:#ebc06b;
+    text-emphasis-color: #daa621;
+    text-align: center;
+    font-family: Gabarito;
+    src: url(Gabarito-VariableFont_wght.tff)
+}
+
+h1{
+    color:#2165da;
+    text-align: center;
+}
+
+h3{
+    color:#2165da;
+    text-align: center;
+}
+
+ /* unvisited link */
+a:link {
+  color:#2165da;
+}
+
+/* visited link */
+a:visited {
+  color: #2165da;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color:#2165da;
+} 
+
+h2{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin:auto;
+    height: 573px;
+    width: 750px;
+}
