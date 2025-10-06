@@ -5,21 +5,25 @@ body{
 
  /* unvisited link */
 a:link {
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 /* visited link */
 a:visited {
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 /* mouse over link */
 a:hover {
+  text-decoration: underline;
   color: #d10d0c;
 }
 
 /* selected link */
 a:active {
+  text-decoration: underline;
   color: rgb(255, 255, 255);
 } 
 

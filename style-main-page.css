@@ -18,21 +18,25 @@ h3{
 
  /* unvisited link */
 a:link {
+  text-decoration: none;
   color:#2165da;
 }
 
 /* visited link */
 a:visited {
+  text-decoration: none;
   color: #2165da;
 }
 
 /* mouse over link */
 a:hover {
+  text-decoration: underline;
   color: #ffffff;
 }
 
 /* selected link */
 a:active {
+  text-decoration: underline;
   color:#2165da;
 } 
 
