@@ -83,6 +83,14 @@ pre{
   font-size: 14pt;
 }
 
+.textbox-ending{
+  text-align:center;
+  font-weight: bold;
+  height: 200px;
+  width:650px;
+  font-size: 14pt;
+}
+
 .textbox-character{
   text-align: center;
   height: 20px;
@@ -185,6 +193,61 @@ pre{
 
 /* selected link */
 .choice-cursor-granny:active {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+} 
+
+/* selected link */
+.choice-cursor-ending:active {
+  text-align: center;
+  height: 20px;
+  width: 93px;
+  font-weight: bold;
+  margin:auto;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+} 
+
+ /* unvisited link */
+.choice-cursor-ending:link {
+  text-align: center;
+  height: 20px;
+  width: 93px;
+  font-weight: bold;
+  margin:auto;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* visited link */
+.choice-cursor-ending:visited {
+  text-align: center;
+  height: 20px;
+  width: 93px;
+  font-weight: bold;
+  margin:auto;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+.choice-cursor-ending:hover {
+  text-align: center;
+  height: 20px;
+  width: 93px;
+  font-weight: bold;
+  margin:auto;
+  text-decoration: underline;
+  color: #d10d0c;
+}
+
+/* selected link */
+.choice-cursor-ending:active {
+  text-align: center;
+  height: 20px;
+  width: 93px;
+  font-weight: bold;
+  margin:auto;
   text-decoration: underline;
   color: rgb(255, 255, 255);
 } 
