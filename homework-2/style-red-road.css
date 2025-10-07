@@ -64,6 +64,15 @@ pre{
   margin-left:auto;
 }
 
+.textbox-character-red{
+  text-align: center;
+  height: 20px;
+  width: 40px;
+  font-weight: bold;
+  margin-left:auto;
+}
+
+
 /*.arrow-1{
   float: left;
   display: block;
