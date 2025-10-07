@@ -33,6 +33,7 @@ h2{
 
 div {
   border-style: double;
+  border-width: thick;
   color: white;
   margin: auto;
   width: 90px;   
@@ -49,3 +50,28 @@ img{
 pre{
     text-align:center;
 }
+
+.textbox{
+  height: 150px;
+  width:620px;
+  font-size: 14pt;
+}
+
+.textbox-character{
+  height: 20px;
+  width: 70px;
+  font-weight: bold;
+  margin-left:auto;
+}
+
+/*.arrow-1{
+  float: left;
+  display: block;
+  margin-left: 200px;
+  margin: auto;
+}*/
+
+/*.arrow-2{
+  display: block;
+  margin-right: 200px;
+}*/
