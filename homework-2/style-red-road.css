@@ -17,13 +17,13 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #d10d0c;
 }
 
 /* selected link */
 .choice-cursor:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(0, 0, 0);
 } 
 
@@ -41,14 +41,14 @@ a:hover {
 
 /* mouse over link */
 .choice-cursor:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #d10d0c;
 }
 
 /* selected link */
 .choice-cursor:active {
-  text-decoration: underline;
-  color: rgb(255, 255, 255);
+  text-decoration: none
+  color(255, 255, 255)
 } 
 
 
@@ -169,7 +169,7 @@ pre{
 
 /* selected link */
 .choice-  :active {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 } 
 
@@ -187,13 +187,13 @@ pre{
 
 /* mouse over link */
 .choice-cursor-granny:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #d10d0c;
 }
 
 /* selected link */
 .choice-cursor-granny:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 } 
 
@@ -204,7 +204,7 @@ pre{
   width: 93px;
   font-weight: bold;
   margin:auto;
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 } 
 
@@ -237,7 +237,7 @@ pre{
   width: 93px;
   font-weight: bold;
   margin:auto;
-  text-decoration: underline;
+  text-decoration: none;
   color: #d10d0c;
 }
 
@@ -248,7 +248,7 @@ pre{
   width: 93px;
   font-weight: bold;
   margin:auto;
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 } 
 
