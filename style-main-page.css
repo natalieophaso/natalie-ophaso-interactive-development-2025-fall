@@ -34,13 +34,13 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #ffffff;
 }
 
 /* selected link */
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
   color:#2165da;
 } 
 
