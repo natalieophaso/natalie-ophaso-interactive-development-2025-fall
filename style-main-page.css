@@ -48,9 +48,16 @@ h2{
     text-align: center;
 }
 
-img{
+.fish{
     display:block;
     margin:auto;
-    height: 573px;
+    height: 773px;
+    width: 950px;
+}
+
+.title{
+    display:block;
+    margin:auto;
+    height: 200px;
     width: 750px;
 }
