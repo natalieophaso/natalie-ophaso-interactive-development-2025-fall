@@ -61,7 +61,8 @@ div {
   border-width: thick;
   color: white;
   margin: auto;
-  width: 90px;   
+  text-align: center;
+  width: 130px;   
   padding:10px;
 }
 
@@ -85,6 +86,17 @@ pre{
 
 .textbox-ending{
   text-align:center;
+  font-weight: bold;
+  height: 200px;
+  width:650px;
+  font-size: 14pt;
+}
+
+.textbox-ending-unique{
+  text-align:center;
+  display:flex;
+  justify-content:center; 
+  align-items:center;
   font-weight: bold;
   height: 200px;
   width:650px;
@@ -117,6 +129,15 @@ pre{
   border-color: white;
   color:#d10d0c;
 }
+
+/* .choice-three-paths{
+  display: flex;
+  border-style: none;
+  border-width: none;
+  margin: auto;
+  height: 600px;
+  width: 800px;
+} WIP */
 
 /* Bottom left text */
 .bottom-left {
