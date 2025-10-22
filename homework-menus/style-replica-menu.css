@@ -1,49 +1,122 @@
-@font-face{
-font-family: Gabarito;
-    src: url(./fonts/Gabarito-VariableFont_wght.ttf)
-}
+@charset "utf-8";
 
 body{
-    background-color:#ebc06b;
-    text-emphasis-color: #daa621;
-    text-align: center;
-    font-family: Gabarito;
+  background-color:#e68e39;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-h1{
-    color:#2165da;
-    text-align: center;
+p{
+  font-size: 10px;
+  color: #4a1e30;
+  margin:auto;
+}
+
+.original-img{
+  width:736px;
+  height:901px;
+  display:flex;
+  margin:auto;
+  margin-top: 20px;
+  position: relative;
+  justify-content: center;
+}
+
+.links{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-top: 2%;
+  gap: 5px;
+}
+
+.menu-container{
+  width:410px;
+  height:901px;
+  display:flex;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fefefe;
+  position: relative;
+}
+
+#logo{
+  top: 7px;
+  left: 111px;
+  width: 200px;
+  height: auto;
+  position: absolute;
+}
+
+.menu-content{
+  text-align: center;
+  padding-top: 190px;
+  padding-left: 12.4%;
+  /* max-width: 210px; */
+}
+
+.courses{
+  font-family:  'Courier New', Courier, monospace;
+  margin-bottom: 5.5%;
+  max-width: 320px;
+}
+
+h6{
+  color: #4a1e30;
+  font-style: italic;
+  margin:0px;
 }
 
 h3{
-    color:#2165da;
-    text-align: center;
+  color: #4a1e30;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
- /* unvisited link */
+#course-headers{
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ca3552;
+  font-family:'Courier New', Courier, monospace;
+  margin: 7px ;
+}  
+
+#brown-dog-title{
+  color:#e68e39;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+
+#brown-dog-dinner{
+  color: #4a1e30;
+  font-family:'Courier New', Courier, monospace;
+  margin: auto;
+}
+
+/* unvisited link */
 a:link {
   text-decoration: none;
-  color:#2165da;
+  color:#f6f5f1;
 }
 
 /* visited link */
 a:visited {
   text-decoration: none;
-  color: #2165da;
+  color: #f6f5f1;
 }
 
 /* mouse over link */
 a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #4a1e30;
 }
 
 /* selected link */
 a:active {
   text-decoration: none;
-  color:#2165da;
+  color:#f6f5f1;
 } 
-
-h2{
-    text-align: center;
-}
