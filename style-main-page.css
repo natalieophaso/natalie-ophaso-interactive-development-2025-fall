@@ -4,44 +4,52 @@ font-family: Gabarito;
 }
 
 body{
-    background-color:#ebc06b;
-    text-emphasis-color: #daa621;
+    background-color:#e0f0e8;
+    text-emphasis-color: #e0f0e8;
     text-align: center;
     font-family: Gabarito;
 }
 
 h1{
-    color:#2165da;
+    color:#239d8d;
     text-align: center;
 }
 
 h3{
-    color:#2165da;
+    color:#239d8d;
     text-align: center;
+}
+
+#title{
+  top: 7px;
+  left: 111px;
+  width: 200px;
+  height: auto;
+  padding-top: 20px;;
 }
 
  /* unvisited link */
 a:link {
   text-decoration: none;
-  color:#2165da;
+  color:#239d8d;
 }
 
 /* visited link */
 a:visited {
   text-decoration: none;
-  color: #2165da;
+  color: #239d8d;
 }
 
 /* mouse over link */
 a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #e59492;
 }
 
 /* selected link */
 a:active {
   text-decoration: none;
-  color:#2165da;
+  color:#239d8d;
 } 
 
 h2{
