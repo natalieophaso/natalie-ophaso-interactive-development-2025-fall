@@ -2,21 +2,21 @@
 
 @font-face{
 font-family: Gabarito;
-    src: url(Gabarito-VariableFont_wght.ttf)
+  src: url(Gabarito-VariableFont_wght.ttf)
 }
 
 body{
-    background-color:#e0f0e8;
-    text-emphasis-color: #e0f0e8;
-    text-align: center;
-    font-family: Gabarito;
+  background-color:#e0f0e8;
+  text-emphasis-color: #e0f0e8;
+  text-align: center;
+  font-family: Gabarito;
 }
 
 h1{
-    color:#239d8d;
-    font-size: 64px;
-    text-align: center;
-    margin: 19px;
+  color:#239d8d;
+  font-size: 40px;
+  text-align: center;
+  margin: 19px;
 }
 
 footer{
@@ -25,17 +25,15 @@ footer{
   padding-top: 1px;
   padding-bottom: 20px;
   font-size: 15px;
-  align-content: center;
 }
 
 .links{
   display: grid;
   grid-template-columns: repeat(2, 140px);
-  justify-content: center;
   gap: 25px;
-  padding-top: auto;
+  padding-top: 1%;
   padding-bottom: 1%;
-  position: relative;
+  justify-content: center;
 }
 
 .friends{
@@ -51,7 +49,7 @@ footer{
 #title{
   top: 7px;
   left: 111px;
-  width: 300px;
+  width: 250px;
   height: auto;
   padding-top: 45px;;
 }
@@ -108,6 +106,7 @@ a:active {
 .neuron-text{
   padding-top:10%;
   color:#239d8d;
+  font-size: 20px;
 }
 
 a:link {
@@ -120,3 +119,13 @@ a:link {
   color: #239d8d;
 } */
 
+@media screen and (max-width: 768px) {
+  .links{
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-content: center;
+  }
+}
