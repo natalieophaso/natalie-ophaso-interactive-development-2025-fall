@@ -9,6 +9,8 @@ body{
   background-color:#e0f0e8;
   text-emphasis-color: #e0f0e8;
   text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: Gabarito;
 }
 
@@ -22,21 +24,26 @@ h1{
 footer{
   color: #239d8d;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 45px;
   padding-bottom: 20px;
   font-size: 15px;
 }
 
-.links{
-  display: grid;
-  grid-template-columns: repeat(2, 140px);
-  gap: 25px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  justify-content: center;
+.main-body{
+  text-align: center;
 }
 
-.friends{
+/* .links{
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 25px;
+  padding-top: 3.5%;
+  padding-bottom: 1%;
+  justify-content: center;
+  transition: all 0.3s ease;
+} */
+
+/* .friends {
   background: #239d8d;
   color:#e0f0e8;
   padding: 1rem 2rem;
@@ -44,7 +51,7 @@ footer{
   text-decoration: none;
   display: block;
   font-size: 20px;
-}
+} */
 
 #title{
   top: 7px;
@@ -55,13 +62,13 @@ footer{
 }
 
 .neuron-containers{
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 8%;
   display: grid;
-  grid-template-columns: repeat(5, 99px);
-  gap: 142px;
+  grid-template-columns: repeat(3, 99px);
+  row-gap: 3%;
+  column-gap: 107px;
   justify-content: center;
-  margin: auto;
   margin-right: 117px;
   max-width: 100%;
 }
@@ -77,10 +84,10 @@ footer{
 }
 
 .neurons img{
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height:70%;
+  justify-content: center;
   object-fit:contain;
-  display: block;
   animation-name: rotate; 
   animation-duration: 2s; 
   animation-iteration-count: infinite;
@@ -92,13 +99,18 @@ footer{
     to {transform: rotate(360deg);}
 }
 
-a:hover .neuron-text {
+a:visited{
+  text-decoration: none;
+  color: #e0f0e8;
+}
+
+a:hover .neuron-text{
   text-decoration: none;
   color: #e59492;
   transition: all 0.3s ease;
 }
 
-a:active {
+a:active{
   text-decoration: none;
   color:#239d8d;
 }
@@ -109,23 +121,66 @@ a:active {
   font-size: 20px;
 }
 
-a:link {
+a:link{
   text-decoration: none;
   color:#239d8d;
 }
 
-/* a:visited {
-  text-decoration: none;
-  color: #239d8d;
-} */
-
-@media screen and (max-width: 768px) {
-  .links{
-  display: grid;
-  grid-template-columns: repeat(2, 140px);
-  gap: 25px;
-  padding-top: 1%;
-  padding-bottom: 1%;
+#button-link{
   justify-content: center;
+  align-items: center;
+  gap: 25%;
+  width: 9rem;
+  height: 4rem;
+  padding: 1px;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Gabarito;
+  color: #e0f0e8;
+  border: none;
+  border-radius: 10px;
+  background-color: #239d8d;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  color: #e59492;
+}
+
+@media (max-width: 767px) {
+  .neuron-containers {
+    padding-top: 5%;
+    padding-bottom: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    row-gap: 5%;
+    column-gap: 36px;
+    margin-right: 45px;
+  }
+
+ #button-link{
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  width: 9rem;
+  height: 4rem;
+  padding: 2px;
+}
+
+button{
+  margin-top: 20%;
+}
+
+  footer{
+    padding-top: 12%;
+    padding-bottom: 1%;
   }
 }
