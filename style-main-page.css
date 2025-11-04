@@ -176,11 +176,12 @@ button:hover {
 }
 
 button{
+  color: #e0f0e8;
   margin-top: 20%;
 }
 
-  footer{
-    padding-top: 12%;
-    padding-bottom: 1%;
+footer{
+  padding-top: 12%;
+  padding-bottom: 1%;
   }
 }
