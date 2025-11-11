@@ -2,4 +2,49 @@
 
 body{
     background-color: cadetblue;
+    font-family: sans-serif;
+    text-align: left;
+    color: khaki;
+}
+
+#runway-container{
+width: 100%;
+height: 100%;
+display: flex;
+padding: 50px;
+padding-top: 50px;
+box-sizing: border-box;
+overflow: auto;
+}
+
+.columns{
+/* width: 20vw;
+flex-grow: 0;
+flex-shrink: 1;
+height: 100%;
+display: grid;
+column-gap: 20px;
+min-width: 200px;
+border: 20px solid white;
+overflow-x: visible;
+border-radius: 10px;
+background-color: rgb(84, 113, 113); */
+padding: 30px;
+display: grid;
+row-gap: 3%;
+justify-content: center;
+margin-right: 50px;
+max-width: 100%;
+border: 10px solid white;
+}
+
+#title {
+width: 80%;
+max-width: 1000px;
+font-size: 6rem;
+letter-spacing: -2px;
+line-height: 0.9em;
+position:relative;
+padding-left: 40px;
+padding-top: 1%;
 }
