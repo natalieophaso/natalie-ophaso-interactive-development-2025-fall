@@ -3,10 +3,10 @@
 body{
     background-color: #183251;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     color: #c4cbd8;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -15,12 +15,43 @@ body{
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:4rem;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     line-height: .1rem;
+    white-space: nowrap;
 }
 
 h2{
     margin-top: .5rem;
+}
+  
+
+/* unvisited link */
+a:link {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+  color: #183251;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* selected link */s
+a:active {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .title{
@@ -36,6 +67,7 @@ h2{
 }
 
 .left-panel{
+    padding-left: 40rem;
     flex-direction: column;
 }
 
@@ -43,6 +75,7 @@ h2{
     display: flex;
     padding-left: 5rem;
     flex-direction: column;
+    white-space: wrap;
 }
 
 .runway-section{
