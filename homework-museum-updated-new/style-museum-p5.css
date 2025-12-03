@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: #258e4d;
+    font-family: sans-serif;
+    text-align: center;
+    color: #258e4d;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    padding:.1rem;
+}
+
+p{
+    padding:.1rem;
+    padding-bottom: 2rem;
+    font-size: 18px;
+}   
+
+.word-box{
+    padding-top: 25rem;
+    background-color: #fbbf35;
+} 

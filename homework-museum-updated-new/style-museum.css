@@ -148,3 +148,32 @@ position:relative;
 padding-left: 40px;
 padding-top: 1%;
 }*/
+
+@media (max-width: 767px) {
+    .left-panel{
+        padding: 0;
+        width:fit-content;
+        height: fit-content;
+}
+
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:3rem;
+        margin-top: 1.3rem;
+        line-height: 1rem;
+        white-space: nowrap;
+}
+
+    p{
+        font-weight:lighter;
+        font-size: 20px;
+}
+
+    .runways{
+        display: flex;
+        padding-left: 5rem;
+        flex-direction: column;
+        white-space: wrap;
+}
+    
+}
