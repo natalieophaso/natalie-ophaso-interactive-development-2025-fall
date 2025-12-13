@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face{
+font-family: BarlowCondensed;
+  src: url(Barlow_Condensed/BarlowCondensed-Regular.ttf)
+}
+
+body{
+    background-color: #183251;
+    text-align: left;
+    color: #c4cbd8;
+    font-family: BarlowCondensed;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+   font-size: 3rem; 
+}
+
+.clock{
+    margin-top: .1rem;
+    font-size: 12pt;
+}
+
+.time{
+    margin-right: 1.3rem;
+}
+
+h2{
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    text-align: left;
+}
+
+.table-bottom{
+    background-color: #647598;
+}
+
+.airport-table{
+    background-color: #183251;
+    padding-left: 1rem;
+    max-height: 100%;
+    width: 73.8rem;
+    position: relative;
+    padding-bottom: 1rem;
+    font-size: 20pt;
+}
+
+.airport-terminals{
+    background-color: #183251;
+    border: 10rem;
+    border-color: #c4cbd8;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thick;
+    width: 90%;
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 25rem;
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+header{
+    display: inline-block;
+    margin-left: calc(1rem*1.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 600px){
+
+    .airport-terminals{
+        text-align: left;
+        margin-top:1rem;
+}
+
+.airport-table{
+        text-align: left;
+        width:25.5rem;
+
+}
+}
+
+.time{
+    line-height:1rem;
+}
+
+/* unvisited link */
+a:link {
+  color: #183251;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #183251;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c4cbd8;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* selected link */s
+a:active {
+  color: #183251;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+body{
+    background-color: #183251;
+    font-family: sans-serif;
+    text-align: center;
+    color: #c4cbd8;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:4rem;
+    margin-top: 1.3rem;
+    line-height: .1rem;
+    white-space: nowrap;
+}
+
+h2{
+    margin-top: .5rem;
+}
+  
+
+/* unvisited link */
+a:link {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+  color: #183251;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* selected link */s
+a:active {
+  color: #6c747c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title{
+    margin-bottom: 0;
+    display: flex;  
+}
+
+#title-desc{
+    margin-top: .1rem;
+    text-align: right;
+    line-height: 0;
+    font-size: 20px;
+}
+
+.left-panel{
+    padding-left: 40rem;
+    flex-direction: column;
+}
+
+.runways{
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    white-space: wrap;
+}
+
+.runway-section{
+    padding: 2rem;
+    padding-bottom: 2rem;
+    height:100%;
+    width:36rem;
+    text-decoration:none;
+    display: flex;
+    overflow:hidden;
+    color:#183251;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    flex-direction: column;
+    background-color:#c4cbd8;
+    margin: 0;
+    border-bottom: 2rem solid #183251;
+}
+
+p{
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+
+#start-line-jal{
+    height:8rem;
+    width:.2rem;
+    margin: auto;   
+    background-color: #183251;
+}
+
+#runway-container{
+    width: 100%;
+    display: flex;
+    padding: 4rem;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/*.columns{
+/* width: 20vw;
+flex-grow: 0;
+flex-shrink: 1;
+height: 100%;
+display: grid;
+column-gap: 20px;
+min-width: 200px;
+border: 20px solid white;
+overflow-x: visible;
+border-radius: 10px;
+background-color: rgb(84, 113, 113); */
+/*padding: 30px;
+display: grid;
+row-gap: 3%;
+justify-content: center;
+margin-right: 50px;
+max-width: 100%;
+border: 10px solid white;
+}*/
+
+/*#title {
+width: 80%;
+max-width: 1000px;
+font-size: 6rem;
+letter-spacing: -2px;
+line-height: 0.9em;
+position:relative;
+padding-left: 40px;
+padding-top: 1%;
+}*/
+
+@media (max-width: 767px) {
+    .left-panel{
+        padding: 0;
+        width:fit-content;
+        height: fit-content;
+}
+
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:3rem;
+        margin-top: 1.3rem;
+        line-height: 1rem;
+        white-space: nowrap;
+}
+
+    p{
+        font-weight:lighter;
+        font-size: 20px;
+}
+
+    .runways{
+        display: flex;
+        padding-left: 5rem;
+        flex-direction: column;
+        white-space: wrap;
+}
+    
+}
