@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 @font-face{
-font-family: BarlowCondensed;
-  src: url(//harmonic-collection/Barlow_Condensed/BarlowCondensed-Regular.ttf)
+font-family: BarlowCondensed-Light;
+  src: url(/BarlowCondensed-Light.ttf)
 }
 
 body{
     background-color: #54c9ff;
-    font-family: BarlowCondensed;
+    font-family: BarlowCondensed-Light;
     text-align: center;
     color: #54c9ff;
     margin: auto;

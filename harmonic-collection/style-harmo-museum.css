@@ -15,6 +15,10 @@ body{
     position: relative;
 }
 
+td{
+    padding-left: .5rem;
+}
+
 h1{
    font-size: 3rem; 
 }
@@ -59,7 +63,7 @@ h2{
     max-width: 1200px;
     min-width: 400px;
     margin: auto;
-    margin-top: 25rem;
+    margin-top: 10rem;
     margin-bottom: 4%;
     text-align: left;
 }

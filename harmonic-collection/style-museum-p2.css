@@ -2,7 +2,7 @@
 
 @font-face{
 font-family: BarlowCondensed-Light;
-  src: url(/BarlowCondensed-Light.ttf)
+  src: url(Barlow_Condensed/BarlowCondensed-Light.ttf)
 }
 
 body{
@@ -18,6 +18,28 @@ body{
 
 h1{
     padding:.1rem;
+    padding-left: 1rem;
+}
+
+button{
+font-size: 1.5rem;
+  font-weight: 400;
+  font-family: BarlowCondensed-Light;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #c74521;
+  text-align: center;
+  transition-duration: 0.4s;
+  padding: .8rem .8rem;
+  margin: 1rem 1rem;
+  margin-top:0;
+  margin-bottom: 3rem;
+}
+
+.button1:hover{
+    background-color: white;
+    color: white;
 }
 
 p{
@@ -26,8 +48,25 @@ p{
     font-size: 18px;
 }
 
+.text{
+    background-color: #c74521;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    margin-top: 1rem;
+    border-radius: 20rem;
+}
+
 .word-box{
-    padding-top: 25rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px #542b2b;
+    width: 90%;
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 4%;
+    padding-top: 1rem;
     background-color: #ffffff;
 }   
 
