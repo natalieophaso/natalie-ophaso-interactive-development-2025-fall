@@ -3,6 +3,8 @@ var display = 0;
 
 function hideShow()
 {
+
+
     if(display == 1)
     {
         div.style.display = 'block';

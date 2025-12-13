@@ -46,10 +46,11 @@ h2{
     background-color: #183251;
     padding-left: 1rem;
     max-height: 100%;
-    width: 73.8rem;
+    width: 70.8rem;
     position: relative;
     padding-bottom: 1rem;
     font-size: 20pt;
+    display: fixed;
 }
 
 .airport-terminals{
